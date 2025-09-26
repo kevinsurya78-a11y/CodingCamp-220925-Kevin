@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charaak Company</title>
+  <!-- Link ke CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://via.placeholder.com/40" alt="Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Our Profile</a>
+      <a href="#">Products</a>
+      <a href="#message">Message Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Hi Harfi, Welcome To Website</h1>
+    <p>Ini adalah website latihan pertama perusahaan Charaak</p>
+    <img src="https://via.placeholder.com/600x300" alt="Banner">
+  </section>
+
+  <!-- Headquarter -->
+  <section class="headquarter">
+    <h2>Our Headquarter</h2>
+    <div class="hq-list">
+      <div class="hq-item">
+        <div>Jakarta</div>
+        <p>Jakarta</p>
+      </div>
+      <div class="hq-item">
+        <div>Bandung</div>
+        <p>Bandung</p>
+      </div>
+      <div class="hq-item">
+        <div>Surabaya</div>
+        <p>Surabaya</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message Us -->
+  <section class="form-section" id="message">
+    <form id="contactForm">
+      <h3>Message Us</h3>
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Nomor Telepon</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,13}" placeholder="Contoh: 081234567890">
+
+      <label for="messageBox">Pesan</label>
+      <textarea id="messageBox" name="messageBox" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="form-output" id="output">
+      <h3>Output Data</h3>
+      <p>Belum ada data</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    Created by Charaak
+  </footer>
+
+  <!-- Link ke JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

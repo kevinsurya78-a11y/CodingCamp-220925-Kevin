@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ccc;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero img {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+}
+
+.headquarter {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.hq-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.hq-item {
+  text-align: center;
+}
+
+.hq-item div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 20px;
+  border-top: 1px solid #ccc;
+}
+
+form {
+  width: 45%;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-output {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f4f4f4;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
